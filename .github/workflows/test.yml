@@ -1,8 +1,8 @@
 name: My First Github Action
 on: [push]
 jobs:
-    print-hello-word:
-        run-on: ubuntu-latest
-        steps: 
-            - run: echo "hello world!!!!"
-            - run: echo "this is step number 2"
+  print-hello-word:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world!!!!"
+      - run: echo "this is step number 2"
